@@ -1,0 +1,7 @@
+.flip-image {
+	transition: transform 0.8s;
+}
+
+.flip-image:hover {
+	transform: rotateY(180deg);
+}
