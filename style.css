@@ -148,8 +148,8 @@ ol li {
 }
 
 .photosbutton {
-	background-color: #e5c9b4;
-	color: #a47955;
+	background-color: #4a6452;
+	color: #d8e2dd;
 	padding: 0.3rem 1rem;
 	border-radius: 0.5rem;
 }
@@ -164,4 +164,10 @@ code {
 
 .paddedbutton {
 	margin-top: 2rem;
+}
+
+.subtext {
+	font-style: italic;
+	color: #7b6eaa;
+	margin-top: 1.5rem;
 }
