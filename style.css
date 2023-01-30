@@ -30,6 +30,8 @@ body {
 	background-color: transparent;
 	width: 449px;
 	height: 673px;
+	min-width: 449px;
+	min-height: 673px;
 	perspective: 1000px;
 }
 
@@ -88,7 +90,21 @@ img {
 	.flip-card {
 		width: 80vw;
 		height: calc(80vw / 0.66716196136);
+
+		min-width: 80vw;
+		min-height: calc(80vw / 0.66716196136);
 		perspective: 1000px;
+	}
+
+	.photospage {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: white;
+
+		width: 100vw;
+		height: 100vh;
+		line-height: 2rem;
 	}
 }
 
