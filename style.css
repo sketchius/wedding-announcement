@@ -2,9 +2,6 @@
 	transition: transform 0.8s;
 }
 
-.flip-image:hover {
-	transform: rotateY(180deg);
-}
 body {
 	background-color: aliceblue;
 	padding: 0;
@@ -48,7 +45,7 @@ body {
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip {
 	border-radius: 1rem;
 
 	transform: rotateY(180deg);
@@ -133,7 +130,7 @@ ol {
 }
 
 ol li {
-	margin: 0.5rem;
+	margin: 1rem;
 }
 
 .buttonholder {
@@ -150,7 +147,7 @@ ol li {
 .photosbutton {
 	background-color: #4a6452;
 	color: #d8e2dd;
-	padding: 0.3rem 1rem;
+	padding: 0.5rem 1.2rem;
 	border-radius: 0.5rem;
 }
 
@@ -169,5 +166,14 @@ code {
 .subtext {
 	font-style: italic;
 	color: #7b6eaa;
-	margin-top: 1.5rem;
+	margin-top: 1rem;
+	font-size: 1.1rem;
+}
+
+.caption {
+	font-size: 1rem;
+	text-transform: capitalize;
+	margin-top: 1rem;
+	color: #ada79c;
+	padding: 0.5rem 1rem;
 }
